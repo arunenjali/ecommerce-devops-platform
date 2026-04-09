@@ -1,0 +1,146 @@
+# -------------------------------
+
+# 🔐 GLOBAL SECURITY
+
+# -------------------------------
+
+*.pem
+*.key
+*.pub
+*.pfx
+*.p12
+*.crt
+*.csr
+
+# AWS Credentials
+
+.aws/
+aws_credentials
+credentials
+config
+
+# Environment files (VERY IMPORTANT)
+
+.env
+.env.*
+*.env
+
+# Terraform sensitive files
+
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# -------------------------------
+
+# 🐳 DOCKER
+
+# -------------------------------
+
+docker-compose.override.yml
+*.tar
+
+# -------------------------------
+
+# 🧪 LOGS & TEMP FILES
+
+# -------------------------------
+
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# -------------------------------
+
+# 🖥️ OS FILES
+
+# -------------------------------
+
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+
+# 🧰 IDE / EDITOR
+
+# -------------------------------
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------------
+
+# 📦 NODEJS
+
+# -------------------------------
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# -------------------------------
+
+# 🐍 PYTHON
+
+# -------------------------------
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+
+# -------------------------------
+
+# ☕ JAVA
+
+# -------------------------------
+
+*.class
+*.jar
+target/
+build/
+
+# -------------------------------
+
+# 🔷 .NET
+
+# -------------------------------
+
+bin/
+obj/
+
+# -------------------------------
+
+# 📁 KUBERNETES / SECRETS
+
+# -------------------------------
+
+kubeconfig
+*.kubeconfig
+secrets.yaml
+*.secret.yaml
+
+# -------------------------------
+
+# 📁 LOCAL FILES
+
+# -------------------------------
+
+*.bak
+*.backup
+*.old
+
